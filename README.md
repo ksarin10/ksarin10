@@ -1,6 +1,15 @@
-# Backend & Applied-AI Engineer
+# Krish Sarin
 
-I build backend systems and applied-ML products, with an emphasis on evaluation, data pipelines, and software that can be tested and operated—not just demoed.
+**Backend and applied-AI engineer · Georgia Tech Computer Science ’28**
+
+I build backend systems and applied-ML products, with an emphasis on evaluation, data pipelines, and software that can be tested and operated—not just demoed. I’m seeking 2027 software engineering internships focused on backend systems, AI infrastructure, and applied machine learning.
+
+## Experience
+
+- **Delta Air Lines** — Software Engineering Intern, Enterprise AI Team (2026)
+- **Zayzen AI** — Software Engineering Intern (2025)
+- **Emory University Biomedical Engineering** — Research Assistant (2023–2024)
+- **GreenEatsApp** — Co-Founder (2026–present)
 
 ## Selected work
 
@@ -24,4 +33,4 @@ Computational-pathology research prototype for whole-slide biopsy analysis. The 
 
 ## Current focus
 
-I’m interested in backend and applied-AI engineering roles where reliability, measurement, and clear system boundaries matter as much as the model itself.
+I’m interested in engineering work where reliability, measurement, and clear system boundaries matter as much as the model itself.
