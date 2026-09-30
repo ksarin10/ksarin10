@@ -9,7 +9,7 @@ I build backend systems and applied-ML products, with an emphasis on evaluation,
 - **Delta Air Lines** — Software Engineering Intern, Enterprise AI Team (2026)
 - **Zayzen AI** — Software Engineering Intern (2025)
 - **Emory University Biomedical Engineering** — Research Assistant (2023–2024)
-- **GreenEatsApp** — Co-Founder (2026–present) [www.greeneatsapp.com](url)
+- **GreenEatsApp** — Co-Founder (2026–present) www.greeneatsapp.com
 
 ## Selected work
 
