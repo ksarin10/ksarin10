@@ -19,6 +19,12 @@ Verified model switching for LLM applications. The platform ingests production t
 
 `TypeScript` · `NestJS` · `Next.js` · `PostgreSQL` · `Prisma` · `Redis` · `BullMQ` · `Docker`
 
+### [Steals](https://github.com/ksarin10/steals-showcase)
+
+Private startup project for personalized fashion deal discovery. The public repository is a code-free product and engineering case study covering user research, pilot results, and high-level architecture; the production implementation remains private.
+
+`React Native` · `Expo` · `FastAPI` · `PostgreSQL` · `Applied ML`
+
 ### [Prostate Cancer Detection Model](https://github.com/ksarin10/Prostate-Cancer-Detection-Model)
 
 Computational-pathology research prototype for whole-slide biopsy analysis. The pipeline prepares 512×512 image and mask patches, applies stain normalization, segments cancer regions with U-Net, and explores Gleason-grade classification with EfficientNetB0.
