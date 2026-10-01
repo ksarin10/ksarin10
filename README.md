@@ -1,8 +1,8 @@
 # Krish Sarin
 
-**Backend and applied-AI engineer · Georgia Tech Computer Science ’28**
+**Backend and applied-AI engineer · AI agents and evaluation systems · Georgia Tech Computer Science ’28**
 
-I build backend systems and applied-ML products, with an emphasis on evaluation, data pipelines, and software that can be tested and operated—not just demoed. I’m seeking 2027 software engineering internships focused on backend systems, AI infrastructure, and applied machine learning.
+I build backend systems and applied-AI products, with a focus on AI agents, evaluation, data pipelines, and software that can be tested and operated—not just demoed. At Delta Air Lines, I work on the Enterprise AI team. I’m seeking 2027 software engineering internships focused on backend systems, AI infrastructure, and applied machine learning.
 
 ## Experience
 
@@ -37,6 +37,6 @@ Computational-pathology research prototype for whole-slide biopsy analysis. The 
 - **Data and infrastructure:** PostgreSQL, Prisma, Redis, BullMQ, Docker, GitHub Actions
 - **Applied AI:** LLM evaluation, model-selection workflows, computer vision, TensorFlow, scikit-learn
 
-## Current focus
+## Engineering focus
 
-I’m interested in engineering work where reliability, measurement, and clear system boundaries matter as much as the model itself.
+I’m focused on agentic AI and the backend systems around it: tool-using workflows, production APIs, asynchronous data pipelines, evaluation systems, and infrastructure that makes model behavior measurable and reliable.
