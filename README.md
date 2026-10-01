@@ -39,4 +39,4 @@ Computational-pathology research prototype for whole-slide biopsy analysis. The 
 
 ## Engineering focus
 
-I’m focused on agentic AI and the backend systems around it: tool-using workflows, production APIs, asynchronous data pipelines, evaluation systems, and infrastructure that makes model behavior measurable and reliable.
+I’m focused on agentic AI and the backend systems around it: MCP servers, production APIs, asynchronous data pipelines, evaluation systems, and infrastructure that makes model behavior measurable and reliable.
