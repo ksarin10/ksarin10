@@ -1,8 +1,8 @@
 # Krish Sarin
 
-**Software engineer building reliable backend systems and applied ML · Georgia Tech CS ’28**
+**Software engineer focused on backend systems and applied AI · Georgia Tech CS ’28**
 
-I like projects where correctness has to be demonstrated, not assumed: durable ingestion, crash recovery, model evaluation, reproducible experiments, and performance measurement. I previously worked on Delta Air Lines’ Enterprise AI team and am seeking 2027 software engineering internships in backend, infrastructure, and applied AI.
+My work focuses on building APIs, AI agents, data pipelines, and user-facing applications. I previously worked on Delta Air Lines’ Enterprise AI team and have also turned startup ideas and side projects into working software. I’m seeking 2027 software engineering internships in backend, AI, and full-stack development.
 
 ## Experience
 
