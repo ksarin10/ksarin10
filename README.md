@@ -8,46 +8,44 @@ My work focuses on building APIs, AI agents, data pipelines, and user-facing app
 
 - **Delta Air Lines** — Software Engineering Intern, Enterprise AI Team (2026)
 - **Zayzen AI** — Software Engineering Intern (2025)
-- **Emory University Biomedical Engineering** — Research Assistant (2023–2024)
+- **Emory University Biomedical Engineering** — Biomedical Engineering Researcher (2023–2024)
 - **GreenEatsApp** — Co-Founder (2026–present) · [greeneatsapp.com](https://www.greeneatsapp.com)
 
-## Selected projects
+## Projects
 
 ### [SentinelAI](https://github.com/ksarin10/sentinelAI)
 
-Verified model switching for LLM applications. SentinelAI ingests production traces, identifies lower-cost model candidates, runs shadow replays, and returns recommendations backed by replay-level quality and failure evidence.
+Helps developers compare LLM response quality, latency, and cost through trace collection and prompt replay, with a Go ingestion gateway that preserves traces through outages.
 
-- Built a Go ingestion gateway with AES-GCM encryption, an fsync-backed spool, bounded per-key capacity, retries, and durable dead letters.
-- A process-kill recovery experiment durably accepted 500 traces during an outage and recovered 500 unique downstream effects with zero loss.
-- CPU profiling found disk lookups dominating duplicate detection; an in-memory key index made the path 30.9× faster while preserving the durability boundary.
-
-`TypeScript` · `Go` · `NestJS` · `Next.js` · `PostgreSQL` · `Redis` · `BullMQ` · `Docker`
+`TypeScript` · `Go` · `Next.js` · `PostgreSQL` · `Redis`
 
 [Reliability and benchmark report](https://github.com/ksarin10/sentinelAI/blob/main/docs/ingestion-reliability.md)
 
 ### [Relay](https://github.com/ksarin10/relay)
 
-A fault-tolerant TCP message broker with a C++20 server and Go clients. Relay uses an append-only log, acknowledgements, bounded backpressure, message IDs, and at-least-once redelivery across disconnects and broker restarts.
+A C++20 TCP message broker with Go clients, durable at-least-once delivery, crash recovery, and backpressure, tested through reproducible failures and Linux benchmarks.
 
-- Handles partial TCP reads and writes, concurrent producers, slow consumers, torn log records, overload, and persistence failures.
-- Fault tests use real sockets, `SIGKILL`, forced partial disk writes, reconnects, and replay; the project also passes address, undefined-behavior, thread, and Go race sanitizers.
-- Linux measurements reached a median 2,056 durable messages/second with 6.5 ms p99 latency and 56 ms recovery from a 10,000-message log.
-
-`C++20` · `Go` · `TCP` · `Linux` · `Concurrency` · `Docker` · `GitHub Actions`
+`C++20` · `Go` · `TCP` · `Linux` · `Concurrency`
 
 [Benchmark report](https://github.com/ksarin10/relay/blob/main/BENCHMARK.md) · [Failure contract](https://github.com/ksarin10/relay/blob/main/docs/failure-semantics.md)
 
 ### [Sensor Recovery](https://github.com/ksarin10/sensor-recovery)
 
-A PyTorch study of methods for reconstructing missing wearable accelerometer and gyroscope data while preserving downstream activity recognition. It compares zero filling, interpolation, a denoising autoencoder, and conditional diffusion on participant-separated UCI HAPT data.
+A PyTorch study of recovering missing motion-sensor data, comparing an autoencoder and conditional diffusion with simple baselines while measuring reconstruction error, activity recognition, and latency.
 
-- Split participants before creating overlapping windows and computed normalization from training participants only.
-- The autoencoder retained 0.997 macro F1 on 32-sample gaps and 0.932 on unseen 64-sample gaps; interpolation remained best for isolated random loss.
-- Stopped the diffusion sweep after it was roughly 149× slower than the autoencoder with worse reconstruction error, documenting the negative result instead of presenting it as an improvement.
-
-`Python` · `PyTorch` · `Time-series ML` · `Experimental design` · `pytest`
+`Python` · `PyTorch` · `Time-series ML` · `Experimental design`
 
 [Experiment report](https://github.com/ksarin10/sensor-recovery/blob/main/results/REPORT.md)
+
+### [Prostate Cancer Detection](https://github.com/ksarin10/Prostate-Cancer-Detection-Model)
+
+Computer-vision research at Emory combining whole-slide image preprocessing, stain normalization, U-Net cancer segmentation, and reconstruction of patch predictions into whole-slide masks.
+
+`Python` · `TensorFlow` · `OpenCV` · `OpenSlide`
+
+## Earlier research
+
+**[Financial Fraud Detection](https://github.com/ksarin10/Finance-Fraud)** — Compared five anomaly-detection methods, including a TensorFlow autoencoder, on synthetic credit-card transactions using shared preprocessing and precision, recall, and F1 evaluation.
 
 ## What I work with
 
